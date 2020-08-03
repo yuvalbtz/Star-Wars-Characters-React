@@ -1,0 +1,34 @@
+.detailanime{
+ 
+  animation: ease-in-out anime 1s;
+
+  }
+@keyframes anime{
+      0%{
+      
+        transform: translatey(800px);  
+        opacity: 0;
+     }
+     100%{
+      transform: translatey(0px);  
+      opacity: 1;
+    }
+}
+
+
+.imageanime{
+ 
+  animation: ease-in-out animeimg 1s;
+
+  }
+@keyframes animeimg{
+      0%{
+      
+        transform: translatey(-800px);  
+        opacity: 0;
+     }
+     100%{
+      transform: translatey(0px);  
+      opacity: 1;
+    }
+}
